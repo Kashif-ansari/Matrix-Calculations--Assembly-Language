@@ -1,0 +1,31 @@
+﻿Build started 8/16/2022 9:11:36 AM.
+     1>Project "C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Project Matrix\Project Matrix.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Project Matrix.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Project Matrix.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\KASHIF ANSARI\AppData\Local\Temp\tmp6ce95ced4f534bb1bbbfc3383230a4e2.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Project.obj" /I "C:\Irvine" /W3 /errorReport:prompt  /TaProject.asm
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Project Matrix.exe.embed.manifest.res" "Debug\Project Matrix_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Irvine Irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project Matrix.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.lib" /MACHINE:X86 "Debug\Project Matrix.exe.embed.manifest.res"
+         Debug\Project.obj
+       Manifest:
+         Deleting file "Debug\Project Matrix.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Project Matrix.exe.embed.manifest" /manifest "Debug\Project Matrix.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Project Matrix.exe.embed.manifest.res" "Debug\Project Matrix_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Irvine Irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project Matrix.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.lib" /MACHINE:X86 "Debug\Project Matrix.exe.embed.manifest.res"
+         Debug\Project.obj
+         Project Matrix.vcxproj -> C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Debug\Project Matrix.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project Matrix.unsuccessfulbuild".
+         Touching "Debug\Project Matrix.lastbuildstate".
+     1>Done Building Project "C:\Users\KASHIF ANSARI\MKashif Ansari\PAFKIET\Semester 5 Summer\COAL\Project\Project Matrix\Project Matrix\Project Matrix.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18

@@ -1,0 +1,52 @@
+Transpose:
+mov edx, offset array1_msg
+call writestring
+call crlf
+mov ecx, 0
+mov esi, offset array1
+.while (ecx < ans)
+call readint
+mov [esi], eax
+add esi, 4
+inc ecx
+.endw
+
+mov edx, offset result
+call writestring
+call crlf
+mov ecx, 0
+mov esi, offset array1
+.while (ecx < ans)
+mov eax, [esi]
+call writeint
+call crlf
+add esi, 4
+inc ecx
+.endw
+jmp start
+Transpose:
+mov edx, offset array1_msg
+call writestring
+call crlf
+mov ecx, 0
+mov esi, offset array1
+.while (ecx < ans)
+call readint
+mov [esi], eax
+add esi, 4
+inc ecx
+.endw
+
+mov edx, offset result
+call writestring
+call crlf
+mov ecx, 0
+mov esi, offset array1
+.while (ecx < ans)
+mov eax, [esi]
+call writeint
+call crlf
+add esi, 4
+inc ecx
+.endw
+jmp start

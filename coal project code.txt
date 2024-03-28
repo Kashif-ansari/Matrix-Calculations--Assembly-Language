@@ -1,0 +1,64 @@
+Include Irvine32.inc
+.data
+msg1 byte  "Enter 1,2,3,4 number to choose add/sub/mul/transpose  the the matrices function"
+num1 word?
+array1 byte 2,4,3,5
+array2 byte 2,4,3,5
+array3 word 0,0,0,0
+
+
+.code
+main proc
+mov edx, offset msg1
+call writestring
+call readint
+mov num1,eax
+
+cmp eax, 1
+mov ecx, 1
+je loop1add
+jg loop2sub
+
+loop1add:
+mov ecx, sizeofarray-1
+
+.while (ecx=>0)
+mov eax, array1[ecx]
+mov ebx, array2[ecx]
+add eax,ebx
+mov array3[ecx],eax
+dec ecx
+.endw
+
+loop2sub:
+mov ecx, sizeofarray-1
+.while (ecx=>0)
+eax = array1[ecx]
+ebx = array2[ecx]
+sub eax,ebx
+mov array3[ecx],eax
+dec ecx
+.endw
+ 
+mov num1,eax
+cmp eax, 3
+je loop3mul
+loop3mul:
+
+
+mov num1,eax
+cmp eax, 4
+je loop4transpose
+loop4transpose:
+
+
+
+
+
+call writeint
+
+call waitmsg
+exit
+main endp
+end main
+
